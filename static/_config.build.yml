@@ -2,6 +2,9 @@
 # Overrides these options in _config.yml
 
 # Write your domain.
+# Make sure it's with `https`, so assets are served from HTTPS.
+# Also, make sure to add that base URL in src/CNAME as well (e.g. `example.com`
+# , that is - without the `https` prefix.)
 url: https://example.com
 
 # Hides your drafts and future posts
