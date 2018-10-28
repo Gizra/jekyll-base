@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    classifier-reborn (2.0.4)
+    classifier-reborn (2.2.0)
       fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -44,18 +44,22 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rake (11.2.2)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    redcarpet (3.3.4)
+    redcarpet (3.4.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sass (3.4.22)
-    scss_lint (0.48.0)
-      rake (>= 0.9, < 12)
-      sass (~> 3.4.15)
+    sass (3.6.0)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    scss_lint (0.57.1)
+      rake (>= 0.9, < 13)
+      sass (~> 3.5, >= 3.5.5)
 
 PLATFORMS
   ruby
@@ -63,8 +67,8 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   fast-stemmer
-  ffi (>= 1.9.24)
-  jekyll (>= 3.6.3)
+  ffi
+  jekyll
   redcarpet
   scss_lint
 
